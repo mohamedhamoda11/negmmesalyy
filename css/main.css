@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+body{
+    position: relative;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color:white;
+}
+:root{
+    --mycolor:#37A5FA!important;
+    
+}
+.logo{
+    width:75px;
+    height: 30px;
+}
+.mycolor{
+    background-color: #37A5FA;
+}
+.orange{
+    color: #F4511E;
+}
+/*nav bar*/ 
+.navbar{
+    
+    background-color: var(--mycolor) !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    position: sticky;
+    top: 0%;
+    z-index: 444;
+    width: 100%;
+}
+.nav-link{
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px;
+    margin-right: 15px;
+    color: #F4511E !important;
+}
+.nav-link:hover{
+    background-color: white;
+    color: #37A5FA !important;
+}
+/* خدماتنا*/
+.iconn{
+    font-size: 30px;
+    color: #37A5FA;
+
+}
+.border-d {
+    border: #F4511E solid 1px;
+    border-radius: 5px;
+}
+
+.number{
+    letter-spacing: 2px;
+}
